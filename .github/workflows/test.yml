@@ -9,7 +9,7 @@ jobs:
             - name: Install NodeJS
               uses: actions/setup-node@v4
             - name: Install deps
-              uses: npm ci
+              run: npm ci
             - name: Run Tests
-              uses: npm test
+              run: npm test
               
